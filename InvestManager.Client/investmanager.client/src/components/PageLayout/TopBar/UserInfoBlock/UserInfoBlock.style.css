@@ -1,0 +1,33 @@
+.user-info-container {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-items: center;
+    align-items: center;
+    gap: 0 5px;
+    height: 100%;
+    margin-left: auto;
+    padding: 0 8px;
+
+    border-left: 4px solid var(--my-blue);
+
+    box-sizing: border-box;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+
+    color: var(--color-grey);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+    background-color: var(--color-grey-darkest);
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}

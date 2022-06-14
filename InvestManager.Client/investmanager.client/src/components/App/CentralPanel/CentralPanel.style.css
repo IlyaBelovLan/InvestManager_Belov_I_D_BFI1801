@@ -1,0 +1,25 @@
+.central-panel-container{
+    display: grid;
+    grid-template-rows: 25px 1fr 175px;
+}
+
+.central-panel-info-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 210px;
+    height: 50px;
+}
+
+.central-panel-header-container{
+    font-size: 19px;
+    margin-top: 6px;
+}
+
+.current-price-display-container{
+    font-size: 19px;
+}
+
+.chart-container{
+    height: 500px;
+    margin-top: 15px;
+}
+

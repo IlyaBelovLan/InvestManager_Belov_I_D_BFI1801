@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-rows: var(--top-bar-height) 1fr;
+    grid-template-columns: minmax(250px, 25%) minmax(857px, 1fr) 25%;
+    min-width: 1050px;
+    min-height: 200px;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: white;
+}

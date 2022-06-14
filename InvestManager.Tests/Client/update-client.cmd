@@ -1,0 +1,1 @@
+nswag openapi2csclient /input:https://localhost:5001/swagger/v1/swagger.json /output:Client.cs /namespace:TestClient

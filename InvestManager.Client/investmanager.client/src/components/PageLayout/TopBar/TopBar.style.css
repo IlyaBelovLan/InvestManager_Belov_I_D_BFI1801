@@ -1,0 +1,26 @@
+.top-bar-container {
+    display: flex;
+    align-items: center;
+    grid-column: 1 / 4;
+
+    font-family: "Helvetica", sans-serif;
+    background-color: var(--color-grey-darkest);
+
+    z-index: 5;
+}
+
+.stub {
+    padding-left: 50px;
+}
+
+.title {
+    position: relative;
+
+    display: flex;
+    width: 12%;
+    min-width: 150px;
+    padding: 0 10px;
+
+    color: var(--color-grey);
+    font-weight: 400;
+}

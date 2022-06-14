@@ -1,0 +1,18 @@
+.date-period-selector-container{
+    margin-top: 3px;
+    display: flex;
+}
+
+.period-title-container{
+    margin: auto;
+    margin-right: 5px;
+}
+
+.period-selector-container{
+    font-size: 17px;
+    margin-right: 2px;
+}
+
+select{
+    font-family: "Segoe UI", sans-serif;
+}

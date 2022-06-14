@@ -1,0 +1,1 @@
+nswag openapi2tsclient /input:https://localhost:5001/swagger/v1/swagger.json /output:client.ts /TypeStyle:interface /NullValue:Null /ClientBaseClass:apiBase /UseTransformOptionsMethod:true

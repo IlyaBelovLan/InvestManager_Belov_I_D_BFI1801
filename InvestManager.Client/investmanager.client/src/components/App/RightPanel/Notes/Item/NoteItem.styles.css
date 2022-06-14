@@ -1,0 +1,39 @@
+.note-item-container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 20% 80%;
+    height: 50px;
+    border: 1px solid var(--color-blue-sky);
+}
+
+.note-item-container:hover{
+    background: #d5e8f5;
+}
+
+.left-tile-container{
+    display: grid;
+    grid-template-rows: 42px 10px;
+}
+
+.symbol-container{
+    font-size: 14px;
+    margin: auto;
+    margin-top: 17px;
+}
+
+.date-container{
+    font-size: 8px;
+    color: darkgray;
+    margin-left: 36px;
+}
+
+.text-container{
+    border-left: 1px solid var(--color-blue-sky);
+    font-size: 14px;
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+
+.active-note-container{
+    background-color: var(--color-blue-sky);
+}
